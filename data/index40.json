@@ -1,0 +1,30 @@
+{
+    "xui_ui_tabs4":{
+        "properties":{
+            "value":"a",
+            "items":[
+                {
+                    "id":"a",
+                    "caption":"Home"
+                },
+                {
+                    "id":"b",
+                    "caption":"Radio Rotation"
+                },
+                {
+                    "id":"c",
+                    "caption":"Rotation Hits"
+                },
+                {
+                    "id":"d",
+                    "caption":"page4",
+                    "closeBtn":true,
+                    "optBtn":"xui-uicmd-opt",
+                    "popBtn":true
+                }
+            ],
+            "left":"0em",
+            "top":"0em"
+        }
+    }
+}
