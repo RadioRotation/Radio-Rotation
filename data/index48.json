@@ -1,0 +1,19 @@
+{
+    "xui_ui_menubar3":{
+        "items":[
+            {
+                "id":"menu1",
+                "caption":"Home"
+            },
+            {
+                "id":"menu2",       
+                "caption":"Radio Rotation"
+            },
+            {
+                "id":"menu2",       
+                "caption":"Rotation Hits"
+            }
+        ],
+        "name":""
+    }
+}
