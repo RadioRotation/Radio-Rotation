@@ -19,7 +19,56 @@ xui.Class('App', 'xui.Module',{
         iniComponents : function(){
             // [[Code created by CrossUI RAD Studio
             var host=this, children=[], append=function(child){children.push(child.get(0));};
-
+            
+            append(
+                xui.create("xui.UI.ToolBar")
+                .setHost(host,"xui_ui_toolbar6")
+                .setItems([
+                    {
+                        "id":"grp1",
+                        "sub":[
+                            {
+                                "id":"a1",
+                                "caption":"Home"
+                            },
+                            {
+                                "id":"a2",
+                                "type":"split"
+                            },
+                            {
+                                "id":"a3",
+                                "caption":"Menu",
+                                "type":"dropButton"
+                            },
+                            {
+                                "id":"a4",
+                                "caption":"status button",
+                                "type":"statusButton"
+                            }
+                        ],
+                        "caption":"grp1"
+                    },
+                    {
+                        "id":"grp2",
+                        "sub":[
+                            {
+                                "id":"b1",
+                                "imageClass":"xui-icon-xui",
+                                "caption":""
+                            },
+                            {
+                                "id":"b2",
+                                "caption":"image button",
+                                "label":"label:",
+                                "imageClass":"xui-icon-xui"
+                            }
+                        ],
+                        "caption":"grp2"
+                    }
+                ])
+                .setTop("19.80952380952381em")
+            );
+            
             return children;
             // ]]Code created by CrossUI RAD Studio
         },
